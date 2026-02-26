@@ -1,77 +1,157 @@
-# 📚 LEARNING — Python Libraries & Automation Notes
+# 🎓 LEARNING — Comprehensive Programming & Development Notes
 
-This repository is my structured learning workspace for mastering **Python libraries and automation workflows**.  
-It contains well-organized notes, experiments, and practice files covering core tools used in real-world automation and data processing.
+A comprehensive, structured learning workspace covering **multiple programming languages**, **data engineering concepts**, **backend development**, and **automation workflows**. Well-organized notes, experiments, and practice files documenting my journey through modern software development.
 
 ---
 
 ## 📁 Repository Structure
 
+```
 LEARNING/
 │
+├── C/
+│   └── C_notes.md                          # Foundational C programming concepts
+│
+├── C++/
+│   └── c++_notes.md                        # C++ language fundamentals & advanced topics
+│
+├── Java/
+│   ├── java.md                             # Java core concepts & OOP principles
+│   └── backend.md/
+│       ├── docker.md                       # Containerization with Docker
+│       ├── ecosystem.md                    # Java backend ecosystem overview
+│       ├── kafka.md                        # Event streaming with Apache Kafka
+│       ├── microservice.md                 # Microservices architecture patterns
+│       └── springboot.md                   # Spring Boot framework deep-dive
+│
 ├── Python/
-│ └── libraries/
-│ ├── os.md # Notes on file & folder automation using os
-│ ├── time.md # Notes on delays, timing, and scheduling
-│ ├── pathlib.md # Modern path handling with Path objects
-│ ├── pandas.md # Comprehensive Pandas learning notes
-│ ├── python.md # General Python concepts & notes
-│ └── pandas_test.py # Hands-on pandas practice script
+│   ├── fundamentals/
+│   │   └── python.md                       # Core Python concepts & language features
+│   │
+│   ├── data_engineering/
+│   │   ├── http_api_fundamentals.md        # REST API design & HTTP protocols
+│   │   ├── software_architecture_fundamentals.md  # System design principles
+│   │   ├── xml_fundamentals.md             # XML structure & parsing concepts
+│   │   └── xml_processing_with_python.md   # XML handling with Python libraries
+│   │
+│   ├── libraries/
+│   │   ├── library.md                      # General library overview & patterns
+│   │   ├── Numpy.md                        # Numerical computing with NumPy
+│   │   ├── os.md                           # File & directory automation
+│   │   ├── pathlib.md                      # Modern path handling
+│   │   ├── pandas.md                       # Data manipulation & analysis
+│   │   ├── requests.md                     # HTTP client for APIs
+│   │   ├── selenium.md                     # Web browser automation
+│   │   ├── time.md                         # Timing, delays & scheduling
+│   │   ├── pandas_test.py                  # Hands-on pandas practice
+│   │   └── [Additional libraries]
+│   │
+│   └── test/
+│       ├── _numpy.py                       # NumPy test & experimentation
+│       └── [Test scripts]
+│
+└── README.md                               # This file
+```
 
 
 ---
 
-## 🎯 What I’m Learning Here
+## 🎯 Learning Domains
 
-This repo documents my progress through:
+### 🔤 **Systems Programming**
+- **C** — Low-level memory management, pointers, and system calls
+- **C++** — Object-oriented programming, templates, and modern C++ features
 
-- ✅ **Pandas** — data cleaning, transformation, grouping, reshaping  
-- ✅ **os** — working with files and directories  
-- ✅ **time** — delays and measuring execution time  
-- ✅ **pathlib** — modern, clean file path handling  
-- 🔜 **Next (planned):**
-  - `requests` → working with APIs  
-  - `selenium` → browser automation  
-  - `schedule` → running scripts automatically  
+### ☕ **Enterprise Java Development**
+- **Java Core** — OOP principles, collections, and concurrency
+- **Spring Boot** — Building production-grade microservices
+- **Docker** — Containerizing applications for deployment
+- **Kafka** — Event streaming and message-driven architectures
+- **Microservices** — Distributed system design patterns
 
----
-
-## 🧠 Learning Approach
-
-For each library, I follow an **Apex Tutor style** learning pattern:
-
-1. Core theory (written notes)  
-2. Mental models (how to think about the tool)  
-3. Working examples  
-4. Hands-on mini tasks  
-5. Real-world use cases  
+### 🐍 **Python Ecosystem**
+- **Fundamentals** — Data types, control flow, functions, OOP
+- **Data Engineering** — HTTP APIs, system architecture, XML processing
+- **Libraries**:
+  - **Data** — Pandas, NumPy for data manipulation
+  - **Automation** — os, pathlib for file operations
+  - **Web** — requests, Selenium for API & browser automation
+  - **Utilities** — time for scheduling and performance
 
 ---
 
-## 🚀 How to Use This Repo
+## 📚 Learning Methodology
 
-You can:
+Each topic follows a **structured, project-based approach**:
 
-- Read the `.md` files for structured notes  
-- Run `pandas_test.py` to see practical examples  
-- Add your own scripts under `Python/libraries/` as you learn more tools  
-
----
-
-## 📌 Future Roadmap
-
-This repository will grow to include:
-
-- Automated data pipelines  
-- Selenium-based browser bots  
-- File processing workflows  
-- Real mini-projects (sales analysis, contact cleaning, etc.)
+1. **Theory** — Core concepts and mental models
+2. **Documentation** — Well-organized markdown notes
+3. **Examples** — Practical code demonstrations
+4. **Experiments** — Test files for hands-on learning
+5. **Real-world Applications** — Mini-projects and use cases  
 
 ---
 
-## 🤝 Contributions
+## 🚀 How to Use This Repository
 
-This is a personal learning repo, but suggestions are welcome.  
-Feel free to open an issue or share feedback.
+- **For Reading** — Navigate to any `.md` file for comprehensive notes
+- **For Practice** — Run `.py` files in the `test/` or `libraries/` directories
+- **For Reference** — Use as a quick lookup guide for concepts and patterns
+- **For Building** — Use these notes as a foundation for your own projects  
 
+---
+
+## � Learning Progress
+
+| Domain | Status | Topics |
+|--------|--------|--------|
+| **C** | 🟢 In Progress | Memory, pointers, data structures |
+| **C++** | 🟡 Intermediate | OOP, STL, modern features |
+| **Java** | 🟢 In Progress | OOP, Spring Boot, Microservices |
+| **Python - Core** | 🟢 Complete | Fundamentals, design patterns |
+| **Python - Data** | 🟢 In Progress | Pandas, NumPy, transformations |
+| **Python - Web** | 🟡 Intermediate | APIs, web automation, scraping |
+| **Backend Concepts** | 🟡 Intermediate | Docker, Kafka, Microservices |
+
+---
+
+## 🔗 Quick Navigation
+
+### Python Data Engineering
+- [HTTP API Fundamentals](Python/data_engineering/http_api_fundamentals.md)
+- [Software Architecture](Python/data_engineering/software_architecture_fundamentals.md)
+- [XML Processing](Python/data_engineering/xml_fundamentals.md)
+
+### Python Libraries
+- [Pandas Guide](Python/libraries/pandas.md)
+- [NumPy Guide](Python/libraries/Numpy.md)
+- [Requests API](Python/libraries/requests.md)
+
+### Backend Development
+- [Spring Boot](Java/backend.md/springboot.md)
+- [Docker Basics](Java/backend.md/docker.md)
+- [Kafka Concepts](Java/backend.md/kafka.md)
+
+---
+
+## 🎯 Future Roadmap
+
+- [ ] Advanced Python — async/await, type hints, design patterns
+- [ ] Machine Learning — scikit-learn, TensorFlow basics
+- [ ] Cloud Platforms — AWS, GCP concepts
+- [ ] DevOps — CI/CD pipelines, Kubernetes
+- [ ] Full-Stack Projects — Integrating frontend + backend
+
+---
+
+## 💡 Tips for Learning
+
+- **Consistency** — Regular practice beats sporadic cramming
+- **Hands-on** — Write code alongside reading theory
+- **Experimentation** — Modify examples to understand concepts deeply
+- **Documentation** — Add notes in your own words for better retention
+
+---
+
+**Last Updated:** February 2026  
 Happy learning! 🚀
