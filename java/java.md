@@ -1,6 +1,6 @@
 # ☕ JAVA MASTER NOTES — From Fundamentals to Enterprise (Elite Edition)
 
-**Author:** Java Enterprise Guide  
+**Author:** Prerak  
 **Purpose:** Master Java from basics to JVM internals, multithreading, and enterprise development  
 **Version:** Complete Elite Edition with JVM Architecture, Concurrency, and Design Patterns
 
